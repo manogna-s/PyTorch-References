@@ -18,6 +18,27 @@ Activate env on every fresh login
 ```
 $conda activate pytorch 
 ```
-
 Ref: [Manage conda env](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
 
+## Installing packages within the conda environment
+
+PyTorch:
+```
+conda install pytorch torchvision cudatoolkit=11.3 -c pytorch
+```
+
+Other libraries often used: numpy, sklearn, matplotlib,  
+
+
+## Python tutorial
+
+Ref: [](https://cs231n.github.io/python-numpy-tutorial/)
+
+## PyTorch
+
+Quick intro: [PRNN ref](some_resources_prnn.pdf)
+
+More detailed tutorial: [CS231n ref]
+
+
+Ref: [](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html#)
