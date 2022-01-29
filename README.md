@@ -31,7 +31,7 @@ OR
 ```
 $pip install numpy
 ```
-PyTorch:
+PyTorch: [ref](https://pytorch.org/get-started/locally/)
 ```
 conda install pytorch torchvision cudatoolkit=11.3 -c pytorch
 ```
