@@ -1,6 +1,6 @@
 # PyTorch-References
 
-### Setup Anaconda on server:
+## Setup Anaconda on server:
 
 Download [Anaconda installer](https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh)
 
@@ -22,23 +22,33 @@ Ref: [Manage conda env](https://conda.io/projects/conda/en/latest/user-guide/tas
 
 ## Installing packages within the conda environment
 
+
+Install libraries like ```numpy, sklearn, matplotlib, opencv``` as
+```
+$conda install numpy
+```
+OR
+```
+$pip install numpy
+```
 PyTorch:
 ```
 conda install pytorch torchvision cudatoolkit=11.3 -c pytorch
 ```
 
-Other libraries often used: numpy, sklearn, matplotlib,  
-
 
 ## Python tutorial
 
-Ref: [](https://cs231n.github.io/python-numpy-tutorial/)
+Ref: [CS231n python tutorial](https://cs231n.github.io/python-numpy-tutorial/)
 
-## PyTorch
+## Pytorch
 
-Quick intro: [PRNN ref](some_resources_prnn.pdf)
+Quick intro [PRNN ref](some_resources_prnn.pdf)
 
-More detailed tutorial: [CS231n ref]
+More detailed ref on tensors, dataloaders etc. [CS231n pytorch tutorial](cs231n_PyTorch_tutorial.pdf)
 
 
-Ref: [](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html#)
+**Other References:**
+
+- [Pytorch official tutorial on transfer learning pipeline](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html#)
+- [Pytorch basics](https://pytorch.org/tutorials/beginner/basics/intro.html)
